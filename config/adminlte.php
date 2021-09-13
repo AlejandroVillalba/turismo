@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Plataforma</b> Turismo',
+    'logo' => '<b>Plataforma</b> Turismo - UNAE',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -230,7 +230,7 @@ return [
         [
             'text' => 'Alojamientos',
             'topnav_right' => true,
-            'url'  => 'home',
+            'url'  => 'alojamiento',
             
             //'icon' => '',
         ],
@@ -258,7 +258,12 @@ return [
             
         ],
 
-
+        [
+            'text' => 'Inicio',
+            'topnav_right' => false,
+            'url'  => 'home',
+            'icon' => 'fas fa-home',
+        ],
         
         
 
