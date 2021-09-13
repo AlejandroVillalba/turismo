@@ -226,41 +226,42 @@ return [
 
     'menu' => [
         // Navbar items:
+
+        [
+            'text' => 'Alojamientos',
+            'topnav_right' => true,
+            'url'  => 'home',
+            
+            //'icon' => '',
+        ],
+
+
+        [
+            'text' => 'Pagina 2',
+            'topnav_right' => true,
+            'url'  => '#',
+            //'icon' => '',
+        ],
+
+
+        [
+            'text' => 'Pagina 3',
+            'topnav_right' => true,
+            'url'  => '#',
+            //'icon' => '',
+        ],
+
         [
             'type'         => 'navbar-search',
             'text'         => 'Buscar',
             'topnav_right' => true,
-        ],
-      
-        [
-            'type'         => 'fullscreen-widget',
-            'topnav_right' => true,
-        ],
-
-        // Sidebar items:
-        [
-            'type' => 'sidebar-menu-search',
-            'text' => 'Buscar',
-        ],
-        [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            
         ],
 
 
-        // ['header' => 'CONFIGURACION DE CUENTA'],
-        // [
-        //     'text' => 'Perfil',
-        //     'url'  => 'user/profile',
-        //     'icon' => 'fas fa-fw fa-user',
-        // ],
-        // [
-        //     'text' => 'Cambiar la contraseña',
-        //     'url'  => 'admin/settings',
-        //     'icon' => 'fas fa-fw fa-lock',
-        // ],
-      
+        
+        
+
     ],
 
     /*

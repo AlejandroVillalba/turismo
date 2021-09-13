@@ -3,12 +3,12 @@
 @section('title', 'Turismo')
 
 @section('content_header')
-    <h1>Turismo</h1>
+    <h1>Vista usuario </h1>
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Titulo</div>
+                    <div class="card-header">Admin</div>
     
                     <div class="card-body">
                         @if (session('status'))
