@@ -247,13 +247,8 @@ return [
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
-        // boton de prueba
-        [
-            'text'        => 'Inicio',
-            'url'        => 'admin',
-            'icon'        => 'fas fa-fw fa-home',
-        ],
-       
+
+
         // ['header' => 'CONFIGURACION DE CUENTA'],
         // [
         //     'text' => 'Perfil',
@@ -353,8 +348,8 @@ return [
             'files' => [
                 [
                     'type' => 'js',
-                    'asset' => false,
-                    'location' => '//cdn.jsdelivr.net/npm/sweetalert2@8',
+                    'asset' => true,
+                    'location' => 'vendor\sweetalert2\sweetalert2.all.min.js',
                 ],
             ],
         ],
